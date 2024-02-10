@@ -1,0 +1,66 @@
+================================================================
+
+Estrazione di parole chiave dalle specifiche del progetto (ho inserito tra parentesi delle domande da fare ai prof Ciancarini e Missiroli):
+- App
+- giocare online
+- una o più varianti di scacchi
+- modalità umano contro computer
+- modalità umano contro umano
+- possibilità per i giocatori:
+   - trovarsi e sfidarsi
+   - concordare modalità e tempi di gioco (ipotizzo che sia chi crea la partita a deciderne i parametri. Giusto?)
+   - giocare la partita
+   - salvare la partita (cosa si intende di preciso? Salvare i risultati in un file locale? Salvare i risultati nella classifica generale? Salvare i risultati in uno spazio personale del 
+      giocatore?)
+   - vedere i propri risultati in una classifica generale, cioè una leaderboard 
+- Prodotto collegato ad almeno un Social Network per:
+   - commentare la partita (cosa si intende? Pubblicare un post sul Social Network che permetta di commentare in diretta la partita oppure che permetta di commentare i risultati di 
+      una partita finita?)
+   - cercare partner (in che senso?)
+   - giocare in modalità "mob" (cosa si intende per modalità mob?)
+- Richiesta della FISE: la maggior parte dei servizi offerti deve essere riservata agli iscritti,
+  solo alcuni di essi possono essere offerti anche a NON soci (cosa si intende di preciso per soci/iscritti? Si intende semplicemente i giocatori iscritti alla piattaforma di gioco?)
+
+- FACOLTATIVO: Uso di ChatGPT gradito per aiutarsi a scrivere le User Story o come funzione di commento delle partite (ipotizzo che si intenda di "includere ChatGPT" nell'applicazione
+  in modo che possa commentare la partita in diretta e "fare il tifo" per il giocatore che sta giocando meglio. Si intende questo?)
+
+================================================
+
+Personas individuate (chiedere ai prof se tutte queste cose scritte soddisfano i loro requisiti):
+- giocatore: potrebbe essere un grande esperto di Scacchi oppure potrebbe starsi approcciando a questo gioco per la prima volta. In tutti i casi, il giocatore 
+  vuole che l'applicazione di gioco sia semplice e immediata da usare.
+  Un giocatore può essere:
+  - NON iscritto alla piattaforma: in questo caso, può usufruire SOLO dei seguenti servizi:
+    - gioco contro computer in una qualsiasi variante disponibile
+    - vedere la leaderboard. I suoi risultati contro il computer NON vengono, però, salvati nella leaderboard!
+  - ISCRITTO alla piattaforma: può usufruire di TUTTI i servizi elencati nella lista sovrastante.
+    
+
+===============================================
+
+User story estratte dalle specifiche:
+
+1) Come giocatore, voglio poter selezionare una delle varianti di Scacchi disponibili durante la creazione
+   di una partita.
+2) Come giocatore, voglio poter selezionare la modalità di gioco (PvB o PvP) durante la creazione di una partita.
+3) Come giocatore, voglio poter invitare un altro giocatore durante la creazione di una partita in modalità PvP
+4) Come giocatore, voglio poter selezionare un livello di difficoltà (Basso, Medio, Alto) durante la creazione di una partita in modalità PvB
+5) Come giocatore, voglio poter avviare la partita una volta che ho impostato tutti i suoi parametri
+6) Come giocatore, voglio poter visualizzare le mosse legali per il pezzo selezionato durante la partita
+7) Come giocatore, voglio poter leggere il mio nome utente e quello del mio avversario durante la partita
+8) Come giocatore, voglio poter leggere il tempo a disposizione per me ed il tempo a disposizione per il mio avversario durante la partita
+9) Come giocatore, voglio che vengano salvati automaticamente i risultati della partita appena conclusa in un mio spazio personale
+10) Come giocatore, voglio che vengano aggiornate le mie statistiche nella leaderboard dopo le partita è stata conclusa
+11) Come giocatore, voglio poter visualizzare una classifica dei migliori giocatori iscritti alla piattaforma
+12) Come giocatore, voglio poter condividere i risultati della partita appena conclusa su un Social Network
+13) Come giocatore, voglio poter invitare una persona con cui giocare tramite un Social Network 
+
+
+Epiche:
+
+- Come giocatore, voglio poter creare una partita (include 1, 2, 3, 4, 5)
+- Come giocatore, una volta creata una partita voglio poter giocarla (include 6 7 8)
+- Come giocatore, voglio poter interagire con un Social Network per poter condividere i risultati delle mie partite e cercare persone con cui giocare (include 11, 12 e 13)
+  
+
+  
