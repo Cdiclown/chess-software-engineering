@@ -1,0 +1,5 @@
+Allego l'output del coverage fatto partire in locale in quanto SonarQube non rileva alcune esclusioni sui file. (Calcola anche le linee di front-end)
+Sono presenti 3 test end-to-end (in tests/Feature/Flow):
+- Gioco come utente non loggato
+- Gioco come utente loggato
+- Giro di tutte le feature a cui puo accedere un utente loggato

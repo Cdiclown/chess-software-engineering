@@ -1,0 +1,3 @@
+Su sonarqube la copertura 38% include i componenti react.
+Purtroppo in questo sprint non siamo riusciti a coprire con test di unitá 
+i componenti, ci siamo concentrati sul testare il back-end
