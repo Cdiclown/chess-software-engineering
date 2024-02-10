@@ -8,12 +8,15 @@ Abbiamo sviluppato un'applicazione web dedicata al gioco della variante degli sc
 I risultati delle partite vengono registrati in una classifica, consentendo ai giocatori di visualizzare i migliori giocatori e la loro posizione globale basata sul punteggio ELO. Oltre alla classifica generale, ogni giocatore ha una sezione privata per monitorare le proprie statistiche, inclusi il numero di vittorie e sconfitte, il numero di mosse per ottenere uno scacco matto e il tempo impiegato per vincere. Questo consente loro di valutare il proprio miglioramento nel tempo.
 
 Inoltre, è possibile affrontare una sfida giornaliera basata su una configurazione specifica, partecipando a una classifica basata sul minor numero di mosse per vincere.
-##Documentazione e Regolamento
+
+## Documentazione e regolamento della variante degli scacchi
 https://en.wikipedia.org/wiki/Really_Bad_Chess#:~:text=Really%20Bad%20Chess%20is%20played,use%20typical%20chess%20opening%20moves.
 https://www.theverge.com/2016/10/13/13262994/really-bad-chess-zach-gage-iphone-ipad
-##Metodo di Sviluppo
+
+## Processo di sviluppo
 Il progetto è stato sviluppato seguendo una metodologia Agile, con iterazioni frequenti e adattamenti continui.
-##Tech Stack e altre informazioni
+
+## Altre informazioni
 Le tecnologie utilizzate per lo sviluppo sono dettagliate nel Readme del progetto.
 
 ## Autori
