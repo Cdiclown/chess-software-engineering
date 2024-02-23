@@ -55,4 +55,4 @@ L'ultima versione dell'app stabile, presa dal branch main é disponibile su http
     - Utilizzato per realizzare il mockup dell'interfaccia grafica
 
 ## Installazione
-Guardare il file README situato in code/osi-chess-app/README.md
+Guardare il file README situato in code/README.md
