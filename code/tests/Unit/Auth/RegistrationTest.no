@@ -1,0 +1,26 @@
+<?php
+
+use App\Models\User;
+use App\Providers\RouteServiceProvider;
+
+// Clear users table after each test
+afterEach(function () {
+    User::all()->each->delete();
+});
+
+test('registration screen can be rendered', function () {
+    $response = $this->get('/register');
+
+    $response->assertStatus(200);
+});
+
+test('new users can register', function () {
+    $response = $this->post('/register', [
+        'username' => 'maiz',
+        'password' => 'password',
+        'password_confirmation' => 'password',
+    ]);
+
+    $this->assertAuthenticated();
+    $response->assertRedirect(RouteServiceProvider::HOME);
+});
