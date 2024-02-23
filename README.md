@@ -22,7 +22,7 @@ Inoltre, offriamo un'entusiasmante sfida giornaliera basata su una configurazion
 
 L'ultima versione dell'app stabile, presa dal branch main é disponibile su https://osichess.murkrowdev.org/
 
-### Tech Stack
+## Tech Stack
 - Linguaggi di programmazione:
   - Front-end:
     - HTML
