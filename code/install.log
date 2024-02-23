@@ -1,0 +1,8 @@
+[21:29:21 2023-11-20] FETCHING Version 2.27.1
+[21:29:21 2023-11-20] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.27.1/spicetify-2.27.1-linux-amd64.tar.gz
+[21:29:22 2023-11-20] EXTRACTING /home/murkrow/.spicetify/spicetify.tar.gz
+[21:29:22 2023-11-20] SETTING EXECUTABLE PERMISSIONS TO /home/murkrow/.spicetify/spicetify
+[21:29:22 2023-11-20] REMOVING /home/murkrow/.spicetify/spicetify.tar.gz
+[21:29:22 2023-11-20] spicetify path already set in /home/murkrow/.zshrc, continuing...
+[21:29:22 2023-11-20] spicetify v2.27.1 was installed successfully to /home/murkrow/.spicetify
+[21:29:22 2023-11-20] Run 'spicetify --help' to get started

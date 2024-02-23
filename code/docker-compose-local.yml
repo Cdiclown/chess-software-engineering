@@ -1,0 +1,23 @@
+services:
+  mariadb:
+    ports:
+      - '${FORWARD_DB_PORT:-3306}:3306'
+
+  # Websockets
+  soketi:
+    environment:
+      SOKETI_DEBUG: '1'
+      SOKETI_METRICS_SERVER_PORT: '9601'
+    ports:
+      - '6002:6001'
+      - '${SOKETI_METRICS_SERVER_PORT:-9601}:9601'
+
+#  selenium:
+#    image: 'selenium/standalone-chrome'
+#    #image: 'seleniarm/standalone-chromium'
+#    extra_hosts:
+#      - 'host.docker.internal:host-gateway'
+#    volumes:
+#      - '/dev/shm:/dev/shm'
+#    networks:
+#      - sail
