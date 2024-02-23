@@ -1,0 +1,164 @@
+div[data-squareid] > div > div[data-testid^='b'] > svg > g > svg > g {
+    /*SOLVES BUG WHERE BLACK PIECES BECOME WHITE*/
+    fill: unset !important;
+}
+
+.game-wrapper {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+
+.undo-button {
+    margin-top: 10px;
+    padding: 5px 18px;
+    background-color: white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.undo-button:hover {
+    scale: 1.1;
+}
+
+.chessboard-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.check {
+    box-shadow: inset 0 0 1px 4px rgb(255, 0, 0);
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#room-code-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#room-code {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+#timer-container {
+    display:flex;
+    gap: 20px;
+}
+
+.timer-title {
+    color: white;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+#timer, #opp-timer {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.link-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.link-container p {
+    margin: 0;
+}
+
+.link-container button {
+    background-color: transparent;
+    color: royalblue;
+    border: none;
+}
+
+#turn-container {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.waring-container {
+    display: flex;
+    gap: 10px;
+    opacity: 0.8;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.warning-text {
+    color:white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.user-data-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.user-data-username-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.user-data-username-container p {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.user-data-username-container img {
+    width: 30px;
+}
+
+
+#moves-count-container p {
+    margin: 0;
+}
+
+
+.resign-button {
+    color:white;
+    background-color: indianred;
+    border:none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius:10px;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+}
+

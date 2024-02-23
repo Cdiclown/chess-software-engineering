@@ -1,0 +1,49 @@
+/* LoginFormStyles.css */
+.register-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+   /* background-image: url('public/images/background.png');
+      background-repeat: no-repeat;
+      background-size: cover; */
+      background-color: #333;
+  }
+
+
+
+.register-logo {
+        width: 146px;
+        height: 129px;
+        flex-shrink: 0;
+        justify-content: center;
+    align-items: center;
+
+    }
+
+
+  .register-p{
+    width: 241px;
+  height: 11px;
+  flex-shrink: 0;
+  color: #D9D9D9;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 9px; /* 81.818% */
+  }
+  .register-link{
+    width: 241px;
+    height: 11px;
+    flex-shrink: 0;
+    color: #274FC7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 9px;
+
+  }

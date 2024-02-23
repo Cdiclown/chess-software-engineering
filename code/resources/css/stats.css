@@ -1,0 +1,102 @@
+.stats-container {
+    display: flex;
+}
+
+.stats-nav {
+    height: calc(100vh - 80px);
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color:#3C3C3C;
+    color: white;
+}
+
+.stats-nav h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.stats-nav a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.stats-nav-section {
+    background-color: #494949;
+    cursor: pointer;
+}
+
+.selected-stats-nav-section {
+    background-color: #333333;
+}
+
+
+
+.content {
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+    height: calc(100vh - 80px);
+    overflow: scroll;
+}
+
+.content h4 {
+    opacity: 0.7;
+}
+
+
+.progress-bar-container {
+    max-width: 33vw;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+table {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 0 1em;
+}
+
+.stats-tab-row {
+    background:#3C3C3C;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.stats-tab-row td {
+    padding: 20px 15px;
+}
+
+.phrase {
+    font-weight: bold;
+}
+.card {
+    border-radius: 4px;
+    background:#3C3C3C;
+    color: #FFF;
+}
+
+.stats-placeholder {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.progress-bar-stats {
+    display: flex;
+}
+
+.stats-my-elo-label {
+    color: goldenrod;
+}

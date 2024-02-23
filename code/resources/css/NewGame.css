@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+    color: white;
+}
+
+.top-bar {
+    padding: 1rem;
+}
+
+#trophy-logo {
+    font-size: 2rem;
+    color: #878787;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+#rankings-link {
+    margin-top: 0.5rem;
+}
+
+#user-logo {
+    /*float: right;*/
+    /*margin-top: 0.6rem;*/
+    /*margin-left: 0.5rem;*/
+}
+
+#username {
+    /*float: right;*/
+    /*margin-top: 0.6rem;*/
+    /*margin-left: 0.5rem;*/
+}
+
+/*h1, h2, #col-content {
+    text-align: center;
+}*/
+
+
+#subtitle {
+    color: #aaaaaa;
+}
+
+#col-content button {
+    width: 100%;
+}
+
+select.form-select, input#hours-input.form-control, input#minutes-input.form-control {
+    text-align: center;
+    background-color: #0d6efd;
+    color: white;
+}
+
+label[for="hours-input"], label[for="minutes-input"]
+{
+    display:none;
+}

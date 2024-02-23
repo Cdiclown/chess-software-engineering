@@ -1,0 +1,113 @@
+/* LoginFormStyles.css */
+.login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('public/images/background.png');
+         background-repeat: no-repeat;
+         background-size: cover; */
+    background-color: #333;
+}
+
+
+.login-logo {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+
+.login-h2 {
+    width: 336px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.login-bho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.login-line {
+    flex-grow: 1;
+    border-top: 1px solid #FFF;
+}
+
+.login-or {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 10px; /* Spazio orizzontale tra le linee e il testo "Or" */
+}
+
+
+.login-input {
+    background: transparent;
+    width: 300px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    width: 300px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    color: #5792C9;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    margin-bottom: 20px;
+}
+
+.login-p {
+    width: 241px;
+    height: 11px;
+    flex-shrink: 0;
+    color: #D9D9D9;
+    text-align: left;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 9px; /* 81.818% */
+}
+
+.login-link {
+    width: 241px;
+    height: 11px;
+    flex-shrink: 0;
+    color: #274FC7;
+    font-size: 11px;
+    font-style: normal;
+}

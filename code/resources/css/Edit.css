@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+}
+
+
+.title{
+    color: #FFF;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .a .textInput
+    .b .textInput
+    .c .textInput{
+        background: transparent;
+        width: 300px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 142.857% */
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .a .button,
+.b .button,
+.c .button{
+        width: 150px;
+        height: 39px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.30));
+
+    }
+
+    .a .paragraph
+    .b .paragraph
+    .c .paragraph{
+        color: #FFFFFFaa;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 125% */
+        text-transform: uppercase;
+    }
+
+    .a .delete{
+        background-color: #333333;
+        text-align:center;
+        font-family: Judson;
+    }
+
+
