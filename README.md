@@ -39,7 +39,7 @@ L'ultima versione dell'app stabile, presa dal branch main é disponibile su http
         - https://github.com/jhlywa/chess.js/tree/master
       - chessboard.jsx:
         - https://github.com/willb335/chessboardjsx
-      - React bootstrap:
+      - React bootstrap
   - Back-end:
     - Laravel
     - StockFish (chess bot)
